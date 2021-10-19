@@ -20,6 +20,7 @@ const MemberShip = () => {
                                 <li>Appoinment with 2 Doctors Free</li>
                                 <li>No dicount at Medicine shop</li>
                             </ul>
+                            <h4>Price: $40</h4>
                             <button type="button" className="btn btn-primary fw-bold mx-5 mt-3 mb-2">BUY NOW</button>
                         </div>
                     </div>
@@ -36,6 +37,7 @@ const MemberShip = () => {
                                 <li>Appoinment with 4 Doctors Free</li>
                                 <li>20% OFF at Medicine shop</li>
                             </ul>
+                            <h4>Price: $80</h4>
                             <button type="button" className="btn btn-warning fw-bold mx-5 mt-3 mb-2">BUY NOW</button>
                         </div>
                     </div>
