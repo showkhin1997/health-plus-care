@@ -1,0 +1,21 @@
+.contact{
+    color: rgb(211, 211, 211);
+    font-size: 20px;
+    margin-left: 50px;
+}
+.appointment{
+    color: rgb(211, 211, 211);
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.other-pages {
+    text-align: justify;
+}
+.font-awesome-icon{
+    color: rgb(194, 194, 194);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
