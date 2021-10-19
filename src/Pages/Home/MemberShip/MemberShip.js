@@ -24,7 +24,6 @@ const MemberShip = () => {
                         </div>
                     </div>
                 </div>
-                {/* add comment */}
                 <div className="col">
                     <div className="card">
                         <img src={goldMembership} className="card-img-top membership-img" alt="..." />
