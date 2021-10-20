@@ -1,6 +1,11 @@
 .bg-header-style{
- background-color: rgb(236, 236, 236);
+ background-color: rgb(245, 245, 245);
 }
 .banner-image{
     height: 540px;
+}
+.header-first-text{
+    color: rgb(41, 41, 255);
+    font-weight: 700;
+   
 }

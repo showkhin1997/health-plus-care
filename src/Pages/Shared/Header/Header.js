@@ -4,6 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import useAuth from '../../../hooks/useAuth';
 import logo from '../../../images/logo.png';
+import './Header.css';
 
 const Header = () => {
     const { user, logOut } = useAuth();
@@ -11,9 +12,9 @@ const Header = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
             <div className="container">
-                <Link className="navbar-brand fst-italic" to="/home">
-                    <img src={logo} alt="" width="40" height="35" />
-                    <span className="text-info fs-4">Health</span><span className="fw-bold">Plus</span></Link>
+                <Link className="navbar-brand fst-italic banner-text-container" to="/home">
+                    <img src={logo} className="header-logo" alt="" width="40" height="35" />
+                    <span className="header-first-text fs-4">Health</span><span className="fw-bold">Plus<small className="care-text-style">Care</small></span></Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
