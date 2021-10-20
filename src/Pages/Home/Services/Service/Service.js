@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import './Service.css';
 
 
 const Service = ({ service }) => {
@@ -8,8 +9,8 @@ const Service = ({ service }) => {
 
     return (
         <Col>
-            <Card className="rounded  border-0  mb-5 container text-center">
-                <Card.Img className="w-100 " variant="top" src={img} />
+            <Card className="rounded  mb-5 container text-center bg-card-style border border-secondary">
+                <Card.Img className="w-100  mt-4" variant="top" src={img} />
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
                     <Card.Text className="text-center text-wrap">{description}</Card.Text>

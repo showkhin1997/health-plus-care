@@ -1,0 +1,7 @@
+.bg-card-style{
+  background-color: rgb(238, 238, 238);
+}
+.bg-card-style:hover{
+    box-shadow: 5px 5px 20px rgb(192, 192, 192);
+    transition-duration: 0.5s;
+}
