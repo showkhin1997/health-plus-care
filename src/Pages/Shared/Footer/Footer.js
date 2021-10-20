@@ -20,6 +20,7 @@ const Footer = () => {
                     <i className="fas fa-angle-right text-primary"> <small>About</small></i><br />
                     <i className="fas fa-angle-right text-primary"> <small>Services</small></i><br />
                     <i className="fas fa-angle-right text-primary"> <small>Doctors</small></i><br />
+                    <i className="fas fa-angle-right text-primary"> <small>Membership</small></i>
                 </div>
                 <div className="col mt-4">
                     <h4 className="mb-3 text-light">Subscribe Now</h4>
