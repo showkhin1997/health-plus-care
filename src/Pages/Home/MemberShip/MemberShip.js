@@ -6,7 +6,7 @@ import './MemberShip.css';
 const MemberShip = () => {
     return (
         <div className="mt-5 mb-5 membership-container mx-auto" id="membershop">
-            <h1 className="text-decoration-underline text-center mb-5 mt-5">Our Membership</h1>
+            <h1 className="text-decoration-underline text-center mb-5 mt-5 bg-header-style">Our Membership</h1>
             <div className="row row-cols-1 row-cols-md-2 g-4">
                 <div className="col">
                     <div className="card">

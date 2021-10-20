@@ -4,7 +4,7 @@ import './About.css';
 const About = () => {
     return (
         <div className="container mt-5  text-center" id="about">
-            <h2 className="text-decoration-underline">About Us</h2>
+            <h2 className="text-decoration-underline bg-header-style">About Us</h2>
             <div className="about-healthcare-sucess">
                 <h4>About Healthcare Success</h4>
                 <p className="text-center">Healthcare Success is a full-service marketing and advertising agency dedicated exclusively to helping healthcare organizations attract new patients, enhance their reputations (brands) and maximize their business success. Our clients include hospitals, medical practices, pharmaceuticals, manufacturers, dental and other practices.</p>
