@@ -1,4 +1,4 @@
-/* const doctors = [
+const doctors = [
     {
         id: 1,
         img: "https://t4.ftcdn.net/jpg/02/60/04/09/360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg",
@@ -34,12 +34,11 @@
         contuctNumber: "0881548387",
         doctorType: "Eye Specialist"
     },
-    {
-        id: 6,
-        img: "https://thumbs.dreamstime.com/b/doctor-21128827.jpg",
-        doctorName: "AMK Matthew",
-        contuctNumber: "0884569387",
-        doctorType: "Test Specialist"
-    },
+    /*   {
+          id: 6,
+          img: "https://i.ibb.co/hK9jmpZ/outdoor-portrait-male-doctor-wearing-white-lab-coat-smiling-to-camera-35801901.jpg",
+          doctorName: "AMK Matthew",
+          contuctNumber: "0884569387",
+          doctorType: "Test Specialist"
+      }, */
 ]
- */
