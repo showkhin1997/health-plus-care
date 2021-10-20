@@ -10,6 +10,6 @@ This project was react, react route, firebase, bootstrapped with [HEALTH PLUS](h
 
 - User can visit the site and comunicate with doctors
 - User login and get appoinment with their favourite doctor
-- Verious kinds of services csn choise by the user
+- Verious kinds of services can choise by the user
 - It is responsive and useful for mobile and desktop devices
 - This website show the cost about the services and user can freely contact with doctors
