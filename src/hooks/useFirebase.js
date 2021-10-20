@@ -82,10 +82,12 @@ const useFirebase = () => {
     const signInUsingGoogle = () => {
         const googleProvider = new GoogleAuthProvider();
         setIsLoading(true);
-
-        signInWithPopup(auth, googleProvider)
-            .then(result => {
-                setUser(result.user);
+        return signInWithPopup(auth, googleProvider)
+            // .then(result => {
+            //     setUser(result.user);
+            //     setError('');
+            // })
+            .catch(error => {
                 setError('');
             })
             .finally(() => setIsLoading(false));
@@ -123,6 +125,8 @@ const useFirebase = () => {
         user,
         isLoading,
         error,
+        setError,
+        setUser,
         logOut,
         signInUsingGoogle,
         signInUsingEmaiAndPassword

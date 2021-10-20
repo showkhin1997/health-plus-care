@@ -1,10 +1,24 @@
 import React from 'react';
+import { useHistory, useLocation } from 'react-router';
 import useAuth from '../../../hooks/useAuth';
 import './Login.css';
 
 
 const Login = () => {
     const { signInUsingGoogle, signInUsingEmaiAndPassword, handlePasswordChange, handleEmailChange, toggleLoginRegister, error, isLogin, handleRegistration, handleNameChanged } = useAuth();
+
+    const location = useLocation();
+    const history = useHistory();
+    const redirect_uri = location.state?.from || '/home';
+    // console.log('came from', location.state?.from);
+
+    const handleGoogleLogin = () => {
+        signInUsingGoogle()
+            .then(result => {
+                history.push(redirect_uri)
+            })
+    }
+
 
     return (
         <div className="mx-5 mt-5 login-container">
@@ -40,7 +54,7 @@ const Login = () => {
                 </div>
                 <div className="row mb-3 text-danger">{error}</div>
                 <button onClick={signInUsingEmaiAndPassword} type="submit" className="btn btn-primary">{isLogin ? "Login" : "Register"}</button>
-                <button className="btn btn-primary ms-2" onClick={signInUsingGoogle}>Google Sign In</button>
+                <button className="btn btn-primary ms-2" onClick={handleGoogleLogin}>Google Sign In</button>
             </form>
             <br /><br /><br /><br />
         </div>

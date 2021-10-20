@@ -43,7 +43,7 @@ const Header = () => {
                         </li>
                     </ul>
                     <Navbar.Text className="me-2">
-                        Signed in as: <a href="#login">{user?.displayName}</a>
+                        <span className="text-dark fw-bold">Welcome:</span> <span className="text-primary fs-4 fw-bold">{user?.displayName}</span>
                     </Navbar.Text>
                     <NavLink to="/login">
                         {user.email ? <Button onClick={logOut} className="fw-bold" variant="light">Log out</Button> :
